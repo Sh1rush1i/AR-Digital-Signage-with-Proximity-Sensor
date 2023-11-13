@@ -18,16 +18,16 @@ EditorBuildSettings:
     path: Assets/Scenes/3. Main Menu.unity
     guid: 2fcbf3c6cb3677a4bb06adae00d1d388
   - enabled: 1
-    path: Assets/Scenes/3.1. Lantai.unity
+    path: Assets/Scenes/Lantai/3.1. Lantai.unity
     guid: 99ca41c1f7c53b542af30f8c3c92cc78
   - enabled: 1
-    path: Assets/Scenes/3.2. Lantai.unity
+    path: Assets/Scenes/Lantai/3.2. Lantai.unity
     guid: 834b15ba788a3064f9d306ed56b59294
   - enabled: 1
-    path: Assets/Scenes/3.3. Lantai.unity
+    path: Assets/Scenes/Lantai/3.3. Lantai.unity
     guid: 645675b5a1b76ff42ba8bfaaf1b7280b
   - enabled: 1
-    path: Assets/Scenes/3.4 Lantai.unity
+    path: Assets/Scenes/Lantai/3.4 Lantai.unity
     guid: 067f6baa394be3c488dff4daaf028013
   - enabled: 1
     path: Assets/Scenes/4. Info FIT.unity
