@@ -1114,6 +1114,61 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1043947292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043947293}
+  - component: {fileID: 1043947294}
+  m_Layer: 0
+  m_Name: Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1043947293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043947292}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.40821788, y: 0.23456968, z: -0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: -5, y: -7.919715, z: -4.034616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1877819312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1043947294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043947292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fddb1b524207e24e92d61df211fa0f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  UpdateEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  usingDelay: 0
+  Delay: 0
+  DelayEvents:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1044932312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,18 +1371,18 @@ MonoBehaviour:
     Games yang berbasiskan sistem terdistribusi baik yang berbasiskan jaringan kabel
     maupun nirkabel.
 
-    
 
-    Program Studi S1 Teknologi Rekayasa Multimedia
-    menawarkan peluang belajar yang menarik bagi mereka yang ingin mengembangkan
-    keterampilan dan pengetahuan di bidang multimedia.
 
-    Dalam program ini, mahasiswa
-    dapat memperoleh pembelajaran di berbagai aspek multimedia seperti desain grafis,
-    animasi, pengeditan video, dan pengembangan web melalui kurikulum terstruktur
-    dan sistematis serta dibimbing oleh instruktur yang berpengalaman di bidangnya.
+    Program Studi S1 Teknologi Rekayasa Multimedia menawarkan
+    peluang belajar yang menarik bagi mereka yang ingin mengembangkan keterampilan
+    dan pengetahuan di bidang multimedia.
 
-    
+    Dalam program ini, mahasiswa dapat
+    memperoleh pembelajaran di berbagai aspek multimedia seperti desain grafis, animasi,
+    pengeditan video, dan pengembangan web melalui kurikulum terstruktur dan sistematis
+    serta dibimbing oleh instruktur yang berpengalaman di bidangnya.
+
+
 
     Visi
 
@@ -1336,12 +1391,12 @@ MonoBehaviour:
     Multimedia Interaktif serta berdaya saing secara Nasional dan Internasional pada
     tahun 2023
 
-    
+
 
     Misi
 
-    Menyelenggarakan pendidikan vokasi di bidang
-    teknologi multimedia interaktif untuk tingkat nasional dan internasional.
+    Menyelenggarakan pendidikan vokasi di bidang teknologi
+    multimedia interaktif untuk tingkat nasional dan internasional.
 
     Mengembangkan
     penelitian yang berkaitan dengan pengembangan teknologi, perangkat dan konten
@@ -1837,6 +1892,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1944768955}
+  - {fileID: 1043947293}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1884671729

@@ -516,7 +516,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1220128384}
   m_HandleRect: {fileID: 1220128383}
   m_Direction: 2
-  m_Value: 0.9310233
+  m_Value: 0.87825215
   m_Size: 0.43344468
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1312,65 +1312,65 @@ MonoBehaviour:
     bidang akuntansi. Mahasiswa dibekali dengan dasar ilmu komputer khususnya sistem
     informasi dan ilmu akuntansi yang kuat.
 
-    
+
 
     Keunggulan
 
-    1. Seluruh
-    dosen program studi D3 Sistem Informasi Akuntansi telah memiliki sertifikasi
-    internasional.
+    1. Seluruh dosen
+    program studi D3 Sistem Informasi Akuntansi telah memiliki sertifikasi internasional.
 
-    2. Program studi sudah tersertifikasi ISO 9001:2015.
+    2.
+    Program studi sudah tersertifikasi ISO 9001:2015.
 
-    3.
-    Akreditasi A
+    3. Akreditasi A
 
-    4. Prestasi Mahasiswa baik akademik dan non akademik sangat
-    baik karena mampu pemcapai prestasi di tingkat Internasional.
+    4.
+    Prestasi Mahasiswa baik akademik dan non akademik sangat baik karena mampu pemcapai
+    prestasi di tingkat Internasional.
 
-    5. Penelitian
-    dan Publikasi Program studi D3 Sistem Informasi Akuntansi mendapatkan peringkat
-    3 (tiga) Sinta Nasional Ristek Dikti.
+    5. Penelitian dan Publikasi Program studi
+    D3 Sistem Informasi Akuntansi mendapatkan peringkat 3 (tiga) Sinta Nasional Ristek
+    Dikti.
 
-    6. Rata-rata masa studi 35,34 bulan,
-    persentase kelulusan tepat waktu sangat tinggi yaitu 90,91% dan masa tunggu lulusan
-    kurun waktu < 3 bulan sebesar 49,40%
+    6. Rata-rata masa studi 35,34 bulan, persentase kelulusan tepat waktu
+    sangat tinggi yaitu 90,91% dan masa tunggu lulusan kurun waktu < 3 bulan sebesar
+    49,40%
 
-    
+
 
     Visi
 
-    Menjadi program
-    studi pendidikan vokasi yang unggul dalam penerapan bidang Sistem Informasi Akuntansi
-    dan diakui di tingkat internasional.
+    Menjadi program studi pendidikan vokasi yang unggul dalam
+    penerapan bidang Sistem Informasi Akuntansi dan diakui di tingkat internasional.
 
-    
+
 
     Misi
 
-    1. Menyelenggarakan
-    pendidikan vokasi yang profesional dalam bidang penerapan sistem informasi akuntansi.
+    1.
+    Menyelenggarakan pendidikan vokasi yang profesional dalam bidang penerapan sistem
+    informasi akuntansi.
 
-    2.
-    Menyelenggarakan penelitian dalam bidang sistem informasi akuntansi yang diakui
-    di tingkat internasional.
+    2. Menyelenggarakan penelitian dalam bidang sistem
+    informasi akuntansi yang diakui di tingkat internasional.
 
-    3. Menyelenggarakan pengabdian masyarakat bagi
-    masyarakat luas dan pelaku bisnis dalam bidang sistem informasi akuntansi.
+    3. Menyelenggarakan
+    pengabdian masyarakat bagi masyarakat luas dan pelaku bisnis dalam bidang sistem
+    informasi akuntansi.
 
-    
 
-    Prospek
-    Karir
+
+    Prospek Karir
 
     1. Financial Data Analyst
 
-    2. Accounting System Developer
+    2.
+    Accounting System Developer
 
-    3.
-    Accounting System Implementator
+    3. Accounting System Implementator
 
-    4. Accounting Officer
+    4. Accounting
+    Officer
 
     5. Tax Officer'
   m_isRightToLeft: 0
@@ -1636,7 +1636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000000042695, y: 49.492065}
+  m_AnchoredPosition: {x: 0.000000042695, y: 87.356445}
   m_SizeDelta: {x: -3.65, y: 1266.461}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1455985375
@@ -1758,6 +1758,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667233936}
   m_CullTransparentMesh: 1
+--- !u!1 &1787323086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787323087}
+  - component: {fileID: 1787323088}
+  m_Layer: 0
+  m_Name: Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787323087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787323086}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.40821788, y: 0.23456968, z: -0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: -5, y: -7.919715, z: -4.034616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1877819312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1787323088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787323086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fddb1b524207e24e92d61df211fa0f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  UpdateEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  usingDelay: 0
+  Delay: 0
+  DelayEvents:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1877819311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,6 +1843,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1944768955}
+  - {fileID: 1787323087}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1884671729

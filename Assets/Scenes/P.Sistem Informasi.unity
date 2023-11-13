@@ -516,7 +516,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1220128384}
   m_HandleRect: {fileID: 1220128383}
   m_Direction: 2
-  m_Value: 0.90709865
+  m_Value: 0.7760663
   m_Size: 0.5851381
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1315,27 +1315,27 @@ MonoBehaviour:
     dan juga quality control ataupun maintenance sebuah sistem di perusahaan maupun
     pabrik.
 
-    
 
-    
+
+
 
     Keunggulan
 
-    
 
-    Telah terakreditasi Akreditasi
-    A BAN-PT
 
-    Waktu tunggu lulusan < 2 bulan dalam mendapatkan pekerjaan pertama
+    Telah terakreditasi Akreditasi A BAN-PT
 
-    Magang
-    kerja selama 6 bulan di perusahaan nasional dan internasional
+    Waktu
+    tunggu lulusan < 2 bulan dalam mendapatkan pekerjaan pertama
 
-    Mahasiswa
-    berkesempatan mengikuti program student exchange ke luar negeri
+    Magang kerja
+    selama 6 bulan di perusahaan nasional dan internasional
 
-    Kerjasama
-    dengan mitra luar negeri di bidang tridharma'
+    Mahasiswa berkesempatan
+    mengikuti program student exchange ke luar negeri
+
+    Kerjasama dengan mitra
+    luar negeri di bidang tridharma'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a7e6c1a3c2b0074b8d003d887d5026e, type: 2}
   m_sharedMaterial: {fileID: 6114503928495528732, guid: 6a7e6c1a3c2b0074b8d003d887d5026e, type: 2}
@@ -1562,6 +1562,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378284056}
   m_CullTransparentMesh: 1
+--- !u!1 &1431009458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431009459}
+  - component: {fileID: 1431009460}
+  m_Layer: 0
+  m_Name: Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431009459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431009458}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.40821788, y: 0.23456968, z: -0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: -5, y: -7.919715, z: -4.034616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1877819312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1431009460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431009458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fddb1b524207e24e92d61df211fa0f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  UpdateEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  usingDelay: 0
+  Delay: 0
+  DelayEvents:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1455985372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1654,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 36.15692}
+  m_AnchoredPosition: {x: 0, y: 87.15448}
   m_SizeDelta: {x: -3.65, y: 938.139}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1455985375
@@ -1751,6 +1806,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1944768955}
+  - {fileID: 1431009459}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1884671729

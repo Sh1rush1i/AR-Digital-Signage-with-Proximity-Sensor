@@ -36,12 +36,39 @@ EditorBuildSettings:
     path: Assets/Scenes/5. Sejarah.unity
     guid: cf97c25663d3e2d418537353ba65d17b
   - enabled: 1
-    path: Assets/Scenes/6. Struktur.unity
-    guid: 2b3e72f906c455540970ce35684d6f33
+    path: Assets/Scenes/6. Struktur FIT.unity
+    guid: 5cb63b1d792abea43b3423d80a37d16c
   - enabled: 1
-    path: Assets/Scenes/7. Info Pri.unity
-    guid: 255907c94977d5746bbb777e32c8c3c7
+    path: Assets/Scenes/7. Info Prodi.unity
+    guid: 005159b32cc4d08408e0d3f87ba73c75
   - enabled: 1
     path: Assets/Scenes/8. Helpdesk.unity
     guid: 5670a7e14eace7f4aad5c216072b41f7
+  - enabled: 1
+    path: Assets/Scenes/360/360 1. Depan FIT.unity
+    guid: 97ec090b794868c499a537f9afd4a33a
+  - enabled: 1
+    path: Assets/Scenes/360/360 2. Depan FIT.unity
+    guid: 0a847689a6273bf43b0cfe37cb6905f1
+  - enabled: 1
+    path: Assets/Scenes/360/360 3. Depan FIT.unity
+    guid: a3b8d0bc5205fc54599159cefe74f8ce
+  - enabled: 1
+    path: Assets/Scenes/360/360 4. Lobby FIT.unity
+    guid: d34d712e4a190044aa747c31df742d3d
+  - enabled: 1
+    path: Assets/Scenes/360/360 5. Lobby FIT 1.unity
+    guid: a2682f9ee859ffc48a5c40e1c07f6d6a
+  - enabled: 1
+    path: Assets/Scenes/360/360 6. Depan Tangga.unity
+    guid: 923191d6d6c34f74e9cc11ab080ee11e
+  - enabled: 1
+    path: Assets/Scenes/360/360 7. Lorong Kelas.unity
+    guid: 5bf47280bf3154146812c56bffe42811
+  - enabled: 1
+    path: Assets/Scenes/360/360 8. Lorong Kelas.unity
+    guid: c0e265daf2263d94a8cc4195dcd8ef0b
+  - enabled: 1
+    path: Assets/Scenes/360/360 9. Lorong Kelas.unity
+    guid: 35579cc563504004784395d27c5a6c15
   m_configObjects: {}
