@@ -35,10 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5. Sejarah.unity
     guid: cf97c25663d3e2d418537353ba65d17b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/6. Struktur.unity
     guid: 2b3e72f906c455540970ce35684d6f33
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/7. Info Pri.unity
     guid: 255907c94977d5746bbb777e32c8c3c7
   - enabled: 1
