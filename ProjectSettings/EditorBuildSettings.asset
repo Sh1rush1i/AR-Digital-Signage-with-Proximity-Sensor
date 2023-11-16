@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Lantai/3.3. Lantai.unity
     guid: 645675b5a1b76ff42ba8bfaaf1b7280b
   - enabled: 1
-    path: Assets/Scenes/Lantai/3.4 Lantai.unity
+    path: Assets/Scenes/Lantai/3.4. Lantai.unity
     guid: 067f6baa394be3c488dff4daaf028013
   - enabled: 1
     path: Assets/Scenes/4. Info FIT.unity
@@ -42,8 +42,35 @@ EditorBuildSettings:
     path: Assets/Scenes/7. Info Prodi.unity
     guid: 005159b32cc4d08408e0d3f87ba73c75
   - enabled: 1
+    path: Assets/Scenes/P.Menejemen Pemasaran.unity
+    guid: c971accfe8002c84fac4677deef0dac3
+  - enabled: 1
+    path: Assets/Scenes/P.Perhotelan.unity
+    guid: 5221fbfbd3dee7d45912d60330a944ea
+  - enabled: 1
+    path: Assets/Scenes/P.RPLA.unity
+    guid: e8f9daa8165dc174990a006888fa7913
+  - enabled: 1
+    path: Assets/Scenes/P.SIA.unity
+    guid: 479e822af661a364280a65a126465ac4
+  - enabled: 1
+    path: Assets/Scenes/P.Sistem Informasi.unity
+    guid: 79709aca3bb88334dabb5955142e303a
+  - enabled: 1
+    path: Assets/Scenes/P.Teknologi Komputer.unity
+    guid: bf6ccafe876738f49a7098b8fb28cd4c
+  - enabled: 1
+    path: Assets/Scenes/P.Teknologi Telekomunikasi.unity
+    guid: 3e9d1e49a7c9f094b8a5b701db15cf3d
+  - enabled: 1
+    path: Assets/Scenes/P.TRM.unity
+    guid: dad188374e4d2c24e8736b6d8c3f0e0e
+  - enabled: 1
     path: Assets/Scenes/8. Helpdesk.unity
     guid: 5670a7e14eace7f4aad5c216072b41f7
+  - enabled: 1
+    path: Assets/Scenes/9. Trivia AR.unity
+    guid: 885306c2f3e33854aa9c10be94113183
   - enabled: 1
     path: Assets/Scenes/360/360 1. Depan FIT.unity
     guid: 97ec090b794868c499a537f9afd4a33a
