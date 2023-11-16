@@ -1,38 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class RotateCamera : MonoBehaviour
 {
-    // Kecepatan rotasi kamera
-    public float rotationSpeed = 5.0f;
+    public float camSpeed = -0.5f;
 
-    // Posisi awal ketika sentuh dimulai
-    private Vector3 dragStartPosition;
-
-    // Rotasi awal kamera
-    private Quaternion startRotation;
+    private float x;
+    private float y;
+    private Vector3 rotateValue;
 
     void Update()
     {
-        // Cek input sentuh atau klik mouse
-        if (Input.GetMouseButtonDown(0))
-        {
-            // Simpan posisi awal sentuhan atau klik mouse
-            dragStartPosition = Input.mousePosition;
-            // Simpan rotasi awal kamera
-            startRotation = transform.rotation;
-        }
-
-        // Cek apakah sentuhan atau klik mouse sedang berlangsung
+        // Check if the mouse button is being held down
         if (Input.GetMouseButton(0))
         {
-            // Hitung perubahan posisi mouse
-            Vector3 delta = Input.mousePosition - dragStartPosition;
-
-            // Hitung rotasi baru berdasarkan perubahan posisi mouse
-            Quaternion rotation = startRotation * Quaternion.Euler(new Vector3(0, -delta.x * rotationSpeed, 0));
-
-            // Terapkan rotasi ke kamera
-            transform.rotation = rotation;
+            x = Input.GetAxis("Mouse X");
+            y = Input.GetAxis("Mouse Y");
+            rotateValue = new Vector3(y, x * -1, 0);
+            transform.eulerAngles = transform.eulerAngles - rotateValue;
+            transform.eulerAngles += rotateValue * camSpeed;
         }
     }
 }
