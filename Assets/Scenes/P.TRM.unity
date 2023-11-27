@@ -591,7 +591,6 @@ Transform:
   m_Children:
   - {fileID: 1044932313}
   - {fileID: 1037324320}
-  - {fileID: 1999256999}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &795851590
@@ -1656,10 +1655,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455985372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000019}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0000012667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1999256999}
   - {fileID: 1667570818}
   - {fileID: 849198363}
   - {fileID: 930339526}
@@ -1881,7 +1881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 543}
+  m_AnchoredPosition: {x: -0.000289917, y: 544}
   m_SizeDelta: {x: 279.9, y: 153.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667570819
@@ -2170,16 +2170,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999256998}
-  m_LocalRotation: {x: -0.40821788, y: 0.23456968, z: -0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 0, z: 29.31908}
-  m_LocalScale: {x: 0.18822461, y: 0.18822461, z: 0.18822464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000023747793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 768449773}
+  m_Father: {fileID: 1455985373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44.98204, y: 77.15842}
+  m_AnchoredPosition: {x: -1.8249054, y: 520.09924}
   m_SizeDelta: {x: 279.897, y: 153.801}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!328 &1999257000
@@ -2190,7 +2190,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999256998}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: be38acfecd869f2408f3559bdc38d161, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 80e1e43bc69dfeb4993b12780a13a470, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -2207,7 +2207,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 0.064
+  - 1
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
