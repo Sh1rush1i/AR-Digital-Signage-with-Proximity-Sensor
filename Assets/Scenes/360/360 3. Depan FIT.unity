@@ -1882,7 +1882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4caa4b5f137ecd548b7078db01d87172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TouchLookEnabled: 0
+  TouchLookEnabled: 1
   sensitivity: 0.1
   smoothness: 0.5
 --- !u!1 &2006141301
