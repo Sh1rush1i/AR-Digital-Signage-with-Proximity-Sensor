@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5124723, g: 0.48444682, b: 0.46959758, a: 1}
+  m_IndirectSpecularColor: {r: 0.51282364, g: 0.4848956, b: 0.47015917, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1316,8 +1316,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436770972}
   m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
---- !u!65 &1436770978
-BoxCollider:
+--- !u!136 &1436770978
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1334,9 +1334,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 12.117775, y: 1.000001, z: 4.6978617}
-  m_Center: {x: 1.110223e-16, y: -0.000001937151, z: -0.000000014901159}
+  serializedVersion: 2
+  m_Radius: 6.0588875
+  m_Height: 1.0000011
+  m_Direction: 1
+  m_Center: {x: 0.0000019073486, y: -0.000000029802326, z: 1.844011e-15}
 --- !u!1 &1519482868
 GameObject:
   m_ObjectHideFlags: 0

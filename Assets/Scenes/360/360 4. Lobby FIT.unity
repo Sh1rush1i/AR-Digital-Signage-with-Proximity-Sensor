@@ -346,10 +346,10 @@ GameObject:
   - component: {fileID: 406579207}
   - component: {fileID: 406579210}
   - component: {fileID: 406579209}
-  - component: {fileID: 406579208}
   - component: {fileID: 406579211}
+  - component: {fileID: 406579212}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Masuk Lobby Tengah
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -363,34 +363,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406579206}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 74.8, y: -6.7, z: 217.3}
-  m_LocalScale: {x: 11.901984, y: 11.901984, z: 11.901984}
+  m_LocalRotation: {x: -0.06019071, y: 0.75143486, z: -0.052462846, w: 0.6549583}
+  m_LocalPosition: {x: 94.3, y: -62.8, z: 223.8}
+  m_LocalScale: {x: 6.462777, y: 6.462777, z: 6.462777}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 413547965}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &406579208
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406579206}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 97.849, z: -9.159}
 --- !u!23 &406579209
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -411,7 +390,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12c8bf6d086d5df4e93f22e5d39b0385, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -440,7 +419,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406579206}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
 --- !u!114 &406579211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,6 +447,29 @@ MonoBehaviour:
           m_StringArgument: 360 5. Lobby FIT 1
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!136 &406579212
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406579206}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6.0588865
+  m_Height: 1.0000008
+  m_Direction: 1
+  m_Center: {x: 0.0000038146973, y: -0.00000002980232, z: -3.8857806e-16}
 --- !u!1 &413547964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,10 +1555,10 @@ GameObject:
   - component: {fileID: 1597629769}
   - component: {fileID: 1597629772}
   - component: {fileID: 1597629771}
-  - component: {fileID: 1597629770}
   - component: {fileID: 1597629773}
+  - component: {fileID: 1597629774}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Keluar FIT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1570,34 +1572,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597629768}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.8, y: -6.7, z: 8}
-  m_LocalScale: {x: 5.208704, y: 5.208704, z: 5.208704}
+  m_LocalRotation: {x: -0, y: -0, z: -0.09402472, w: 0.9955699}
+  m_LocalPosition: {x: -71.366, y: -33.9, z: 8.2194}
+  m_LocalScale: {x: 2.7600367, y: 2.7600367, z: 2.7600367}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 413547965}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1597629770
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1597629768}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.79}
 --- !u!23 &1597629771
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1618,7 +1599,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12c8bf6d086d5df4e93f22e5d39b0385, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1647,7 +1628,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597629768}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
 --- !u!114 &1597629773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1675,6 +1656,29 @@ MonoBehaviour:
           m_StringArgument: 360 3. Depan FIT
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!136 &1597629774
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597629768}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6.0588865
+  m_Height: 1.000001
+  m_Direction: 1
+  m_Center: {x: 4.440892e-16, y: 0.0000018775463, z: -0.000000059604645}
 --- !u!1 &1778362030
 GameObject:
   m_ObjectHideFlags: 0

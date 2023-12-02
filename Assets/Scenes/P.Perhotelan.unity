@@ -1286,7 +1286,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1220128384}
   m_HandleRect: {fileID: 1220128383}
   m_Direction: 2
-  m_Value: 0.41747263
+  m_Value: 1.0000006
   m_Size: 0.24360938
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2351,15 +2351,15 @@ MonoBehaviour:
 
     13. Telephone Operator
 
-    14.
-    Front Office Supervisor
+    14. Front
+    Office Supervisor
 
     15. Waiter
 
     16. Restaurant Supervisor
 
-    17.
-    Room Attendant
+    17. Room
+    Attendant
 
     18. Room Supervisor
 
@@ -3296,7 +3296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 992.87354}
+  m_AnchoredPosition: {x: 0, y: -0.0010717207}
   m_SizeDelta: {x: -3.65, y: 2253.365}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1455985375
@@ -3724,7 +3724,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 812862735}
   m_HandleRect: {fileID: 812862734}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

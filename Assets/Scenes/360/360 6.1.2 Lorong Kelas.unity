@@ -275,10 +275,10 @@ GameObject:
   - component: {fileID: 465335285}
   - component: {fileID: 465335288}
   - component: {fileID: 465335287}
-  - component: {fileID: 465335286}
   - component: {fileID: 465335289}
+  - component: {fileID: 465335290}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: ToLorongKelas2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,34 +292,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465335284}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34, y: -18, z: 1008}
-  m_LocalScale: {x: 52.634277, y: 52.634277, z: 52.634277}
+  m_LocalRotation: {x: 0.06358823, y: -0.7271967, z: 0.06897249, w: -0.6799884}
+  m_LocalPosition: {x: 36, y: -156, z: 855}
+  m_LocalScale: {x: 12.62591, y: 12.62591, z: 12.62591}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 24713605}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &465335286
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 465335284}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.793, y: -266.232, z: -10.737}
 --- !u!23 &465335287
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -340,7 +319,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12c8bf6d086d5df4e93f22e5d39b0385, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -369,7 +348,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465335284}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
 --- !u!114 &465335289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +376,29 @@ MonoBehaviour:
           m_StringArgument: 360 6.1.1 Lorong Kelas
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!136 &465335290
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465335284}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6.0588856
+  m_Height: 1.0000008
+  m_Direction: 1
+  m_Center: {x: -0.0000038146973, y: -0.000000029802322, z: -0.00000023841858}
 --- !u!1 &519473936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,13 +1723,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954315336}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.70275825, z: -0, w: 0.71142876}
+  m_LocalRotation: {x: -0, y: 0.71397454, z: -0, w: 0.7001717}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921167930}
-  m_LocalEulerAnglesHint: {x: 0, y: 89.297, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 91.118, z: 0}
 --- !u!114 &1954315340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1799,10 +1801,10 @@ GameObject:
   - component: {fileID: 2083382614}
   - component: {fileID: 2083382617}
   - component: {fileID: 2083382616}
-  - component: {fileID: 2083382615}
   - component: {fileID: 2083382618}
+  - component: {fileID: 2083382619}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: ToLorongKelas3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1816,34 +1818,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083382613}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 68.1, y: -1.59, z: -2.3}
-  m_LocalScale: {x: 3.3158, y: 3.3158, z: 3.3158}
+  m_LocalRotation: {x: -0.058062684, y: 0.99825364, z: 0.000631898, w: -0.0108640315}
+  m_LocalPosition: {x: 100.5, y: -13.5, z: -3}
+  m_LocalScale: {x: 1.9383172, y: 1.9383172, z: 1.9383172}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 24713605}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &2083382615
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083382613}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 181.247, z: -6.658}
 --- !u!23 &2083382616
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1864,7 +1845,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12c8bf6d086d5df4e93f22e5d39b0385, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1893,7 +1874,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083382613}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
 --- !u!114 &2083382618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1921,6 +1902,29 @@ MonoBehaviour:
           m_StringArgument: 360 6.1.3 Lorong Kelas
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!136 &2083382619
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083382613}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6.058889
+  m_Height: 1.0000011
+  m_Direction: 1
+  m_Center: {x: -8.209579e-16, y: -0.000001937151, z: 1.3877788e-17}
 --- !u!1 &2130187945
 GameObject:
   m_ObjectHideFlags: 0

@@ -125,4 +125,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/360/360 6.3.4 Depan Arah Aula FIT.unity
     guid: 8937c0357d04a22429554d6c2d7fe0e4
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 881a0d08d2cde4642ba755eb1d9354b6, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 0705a23428c36e149ae5aec6d67c7d2d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 386545188c4ac644cb87752cdff1f303, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 25049b77de81c5f4fabb3f138e435715, type: 2}

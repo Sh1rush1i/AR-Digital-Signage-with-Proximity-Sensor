@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45150816, g: 0.43829453, b: 0.42297074, a: 1}
+  m_IndirectSpecularColor: {r: 0.4514438, g: 0.4384402, b: 0.4227855, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -267,8 +267,8 @@ GameObject:
   - component: {fileID: 82680716}
   - component: {fileID: 82680720}
   - component: {fileID: 82680719}
-  - component: {fileID: 82680718}
   - component: {fileID: 82680717}
+  - component: {fileID: 82680721}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -318,27 +318,6 @@ MonoBehaviour:
           m_StringArgument: 360 6.2 Depan Ruangan Dosen
           m_BoolArgument: 0
         m_CallState: 2
---- !u!135 &82680718
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82680715}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &82680719
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -389,6 +368,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82680715}
   m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
+--- !u!136 &82680721
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82680715}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6.058888
+  m_Height: 1.0000007
+  m_Direction: 1
+  m_Center: {x: -0.00000017881393, y: -0.000000029802322, z: 0}
 --- !u!1 &117971122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,8 +1394,8 @@ GameObject:
   - component: {fileID: 1436770973}
   - component: {fileID: 1436770977}
   - component: {fileID: 1436770976}
-  - component: {fileID: 1436770975}
   - component: {fileID: 1436770974}
+  - component: {fileID: 1436770978}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1443,27 +1445,6 @@ MonoBehaviour:
           m_StringArgument: 360 6.3.1 Depan Arah LA
           m_BoolArgument: 0
         m_CallState: 2
---- !u!135 &1436770975
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436770972}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1436770976
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1514,6 +1495,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436770972}
   m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
+--- !u!136 &1436770978
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436770972}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6.058886
+  m_Height: 1.0000006
+  m_Direction: 1
+  m_Center: {x: -0.0000019073486, y: -0.00000002980232, z: -0.000000059604645}
 --- !u!1 &1842839426
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.52379733, g: 0.4890386, b: 0.4685825, a: 1}
+  m_IndirectSpecularColor: {r: 0.5237414, g: 0.48895293, b: 0.4683488, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1223,8 +1223,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351545151}
   m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
---- !u!65 &1351545157
-BoxCollider:
+--- !u!136 &1351545157
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1241,9 +1241,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Radius: 6.0588875
+  m_Height: 1.0000007
+  m_Direction: 1
+  m_Center: {x: 0.0000038146973, y: -0.000000029802322, z: 0.00000047683716}
 --- !u!1 &1400204626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,8 +1291,8 @@ GameObject:
   - component: {fileID: 1436770973}
   - component: {fileID: 1436770977}
   - component: {fileID: 1436770976}
-  - component: {fileID: 1436770975}
   - component: {fileID: 1436770974}
+  - component: {fileID: 1436770978}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1340,27 +1342,6 @@ MonoBehaviour:
           m_StringArgument: 360 6.3.3 Lorong Depan Colab
           m_BoolArgument: 0
         m_CallState: 2
---- !u!135 &1436770975
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436770972}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1436770976
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1411,6 +1392,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436770972}
   m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
+--- !u!136 &1436770978
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436770972}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6.058886
+  m_Height: 1.0000006
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.00000002980232, z: 0}
 --- !u!1 &1605916166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,8 +1660,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744707094}
   m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
---- !u!65 &1744707100
-BoxCollider:
+--- !u!136 &1744707100
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1674,8 +1678,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 12.117775, y: 1.0000007, z: 4.697862}
+  serializedVersion: 2
+  m_Radius: 6.0588875
+  m_Height: 1.0000007
+  m_Direction: 1
   m_Center: {x: 0, y: -0.0000009834766, z: 0.000000029802322}
 --- !u!1 &1954315336
 GameObject:
