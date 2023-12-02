@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.59786034, g: 0.56352115, b: 0.5489897, a: 1}
+  m_IndirectSpecularColor: {r: 0.59771913, g: 0.56337106, b: 0.54884183, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -637,8 +637,8 @@ GameObject:
   - component: {fileID: 748511884}
   - component: {fileID: 748511888}
   - component: {fileID: 748511887}
-  - component: {fileID: 748511886}
   - component: {fileID: 748511885}
+  - component: {fileID: 748511889}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -654,13 +654,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748511883}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -104.8, y: -1.4, z: 50.8}
-  m_LocalScale: {x: 6.5578394, y: 6.5578394, z: 6.5578394}
+  m_LocalRotation: {x: -0, y: -0.022992704, z: -0, w: 0.99973565}
+  m_LocalPosition: {x: -105, y: -21.1, z: -3.8000002}
+  m_LocalScale: {x: 3.8335817, y: 3.8335817, z: 3.8335817}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1400204627}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -2.635, z: 0}
 --- !u!114 &748511885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,27 +688,6 @@ MonoBehaviour:
           m_StringArgument: 360 6.3.1 Depan Arah LA
           m_BoolArgument: 0
         m_CallState: 2
---- !u!135 &748511886
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748511883}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &748511887
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -729,7 +708,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12c8bf6d086d5df4e93f22e5d39b0385, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -758,7 +737,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748511883}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
+--- !u!65 &748511889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748511883}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.117772, y: 1.0000007, z: 4.697861}
+  m_Center: {x: 0, y: -0.0000005066395, z: 0}
 --- !u!1 &823933824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,8 +1043,8 @@ GameObject:
   - component: {fileID: 1082842680}
   - component: {fileID: 1082842684}
   - component: {fileID: 1082842683}
-  - component: {fileID: 1082842682}
   - component: {fileID: 1082842681}
+  - component: {fileID: 1082842685}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -1060,13 +1060,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082842679}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -104.8, y: -1.4, z: 95.9}
-  m_LocalScale: {x: 6.5578394, y: 6.5578394, z: 6.5578394}
+  m_LocalRotation: {x: 0.4991421, y: 0.5008518, z: -0.5017394, w: 0.49825922}
+  m_LocalPosition: {x: -154.2, y: 1.5, z: 104.1}
+  m_LocalScale: {x: 1.8048486, y: 1.8048486, z: 1.8048486}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1400204627}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90.10101, y: 180, z: 89.601}
 --- !u!114 &1082842681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1094,27 +1094,6 @@ MonoBehaviour:
           m_StringArgument: 360 6.3.2 Aula FIT
           m_BoolArgument: 0
         m_CallState: 2
---- !u!135 &1082842682
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082842679}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1082842683
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1135,7 +1114,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12c8bf6d086d5df4e93f22e5d39b0385, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1164,7 +1143,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082842679}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
+--- !u!65 &1082842685
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082842679}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.117773, y: 1.0000007, z: 4.6978617}
+  m_Center: {x: 0, y: -0.000000026077032, z: 0}
 --- !u!1 &1170878909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,13 +1414,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436770972}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 170.4, y: 0, z: 62.5}
-  m_LocalScale: {x: 7.264131, y: 7.264131, z: 7.264131}
+  m_LocalRotation: {x: -0, y: 0.9995807, z: -0, w: 0.028958134}
+  m_LocalPosition: {x: 124.3, y: -23.9, z: 5.1}
+  m_LocalScale: {x: 3.6043892, y: 3.6043892, z: 3.6043892}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1400204627}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 176.681, z: 0}
 --- !u!114 &1436770974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1489,7 +1489,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12c8bf6d086d5df4e93f22e5d39b0385, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1518,7 +1518,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436770972}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 244612630391513618, guid: 58e529c6be061af4985e37f0e869f1aa, type: 3}
 --- !u!1 &1538154321
 GameObject:
   m_ObjectHideFlags: 0
@@ -1886,13 +1886,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954315336}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.67559016, z: 0, w: 0.7372774}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2034512023}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 85, z: 0}
 --- !u!114 &1954315340
 MonoBehaviour:
   m_ObjectHideFlags: 0
