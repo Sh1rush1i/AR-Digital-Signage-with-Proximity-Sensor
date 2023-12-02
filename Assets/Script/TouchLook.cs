@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 
 public class TouchLook : MonoBehaviour
 {
@@ -9,36 +6,62 @@ public class TouchLook : MonoBehaviour
     public bool TouchLookEnabled;
 
     [Header("Movement Settings")]
-    [SerializeField] private float sensitivity = 0.1f; // sensitivitas gerakan kamera
-    [SerializeField] private float smoothness = 0.5f; // kehalusan gerakan kamera
-    private Vector2 lastTouchPosition; // posisi touch terakhir
-    private Vector2 currentTouchPosition; // posisi touch saat ini
-    private Vector2 smoothDeltaPosition; // perpindahan touch yang telah disampirkan
+    [SerializeField] private float sensitivity = 0.1f;
+    [SerializeField] private float smoothness = 0.5f;
+
+    private Vector2 lastTouchPosition;
+    private Vector2 currentTouchPosition;
+    private Vector2 smoothDeltaPosition;
 
     void Update()
     {
-        if (TouchLookEnabled && Input.touchCount > 0) // jika terdapat input touch
+        if (TouchLookEnabled)
         {
-            Touch touch = Input.GetTouch(0); // ambil input touch pertama
-            if (touch.phase == TouchPhase.Moved) // jika touch bergerak
+            if (Input.touchCount > 0)
             {
-                currentTouchPosition = touch.position; // simpan posisi touch saat ini
-                Vector2 deltaPosition = currentTouchPosition - lastTouchPosition; // hitung perpindahan touch
-                smoothDeltaPosition = Vector2.Lerp(smoothDeltaPosition, deltaPosition, smoothness); // sampaikan perpindahan touch yang telah disampirkan
-                transform.Rotate(-smoothDeltaPosition.y * sensitivity, 0, 0);
-                transform.Rotate(0, smoothDeltaPosition.x * sensitivity, 0, Space.World); // putar kamera sesuai perpindahan touch
-                lastTouchPosition = currentTouchPosition; // simpan posisi touch terakhir
+                Touch touch = Input.GetTouch(0);
+                ProcessTouch(touch);
             }
-            else if (touch.phase == TouchPhase.Began) // jika touch dimulai
+            else if (Input.GetMouseButtonDown(0)) // Tambahkan pengolahan sentuhan mouse
             {
-                lastTouchPosition = touch.position; // simpan posisi touch terakhir
-                smoothDeltaPosition = Vector2.zero; // reset perpindahan touch yang telah disampirkan
-            }
-            else if (touch.phase == TouchPhase.Ended) // jika touch berakhir
-            {
-                smoothDeltaPosition = Vector2.zero; // reset perpindahan touch yang telah disampirkan
+                ProcessMouseTouch(Input.mousePosition);
             }
         }
     }
-}
 
+    void ProcessTouch(Touch touch)
+    {
+        if (touch.phase == TouchPhase.Moved)
+        {
+            currentTouchPosition = touch.position;
+            Vector2 deltaPosition = currentTouchPosition - lastTouchPosition;
+            smoothDeltaPosition = Vector2.Lerp(smoothDeltaPosition, deltaPosition, smoothness);
+            UpdateRotation();
+            lastTouchPosition = currentTouchPosition;
+        }
+        else if (touch.phase == TouchPhase.Began)
+        {
+            lastTouchPosition = touch.position;
+            smoothDeltaPosition = Vector2.zero;
+        }
+        else if (touch.phase == TouchPhase.Ended)
+        {
+            smoothDeltaPosition = Vector2.zero;
+        }
+    }
+
+    void ProcessMouseTouch(Vector2 mousePosition)
+    {
+        currentTouchPosition = mousePosition;
+        Vector2 deltaPosition = currentTouchPosition - lastTouchPosition;
+        smoothDeltaPosition = Vector2.Lerp(smoothDeltaPosition, deltaPosition, smoothness);
+        UpdateRotation();
+        lastTouchPosition = currentTouchPosition;
+    }
+
+    void UpdateRotation()
+    {
+        transform.Rotate(-smoothDeltaPosition.y * sensitivity, 0, 0);
+        transform.Rotate(0, smoothDeltaPosition.x * sensitivity, 0, Space.World);
+    }
+}
