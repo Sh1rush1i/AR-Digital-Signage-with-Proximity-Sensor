@@ -30,6 +30,7 @@ MonoBehaviour:
   - {fileID: 2309073507143115291}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  versionChanged: 0
 --- !u!114 &-8422276462125598901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +211,7 @@ MonoBehaviour:
   - {fileID: 1039823521684959729}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  versionChanged: 0
 --- !u!114 &-5003141673719751458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,6 +298,7 @@ MonoBehaviour:
   - {fileID: 4575832025802389345}
   m_renderMode: 0
   m_depthSubmissionMode: 2
+  versionChanged: 0
 --- !u!114 &-3310705036995762127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -988,6 +991,7 @@ MonoBehaviour:
   features: []
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  versionChanged: 0
 --- !u!114 &6464245338128217788
 MonoBehaviour:
   m_ObjectHideFlags: 0
