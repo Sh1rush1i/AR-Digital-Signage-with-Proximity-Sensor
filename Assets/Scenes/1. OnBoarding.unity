@@ -1449,7 +1449,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mendekat
+  m_Text: Mulai
 --- !u!222 &1904934227
 CanvasRenderer:
   m_ObjectHideFlags: 0

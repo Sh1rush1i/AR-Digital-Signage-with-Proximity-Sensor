@@ -2641,7 +2641,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 075d1dd591a7bda48ab9001504bb2e66, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd9d372288fbcea4980f28df666cd33d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2902,6 +2902,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleTime: 60
+  onIdleSceneSwitch:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2008885151
 GameObject:
   m_ObjectHideFlags: 0
